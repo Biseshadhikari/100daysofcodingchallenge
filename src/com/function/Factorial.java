@@ -11,6 +11,16 @@ public class Factorial {
         System.out.println(factorial);
     }
     static int factorial(int number){
+        int factorial = 1;
+        int i =0;
+        int num = number;
+        while (i<num){
+            number = num-i;
+            factorial = factorial*number;
+            i++;
+
+        }
+        return factorial;
 
     }
 }
