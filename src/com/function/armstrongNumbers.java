@@ -4,20 +4,34 @@ import java.util.Scanner;
 
 public class armstrongNumbers {
     public static void main(String[] args) {
-        int a =5;
-        if (a%2!=0){
-            if(a%3==0){
-                System.out.println("True");
-            }
-            else {
-                System.out.println("false ");
-            }
+        while (true) {
+            Scanner input = new Scanner(System.in);
+            System.out.println("Enter the number");
+            int number = input.nextInt();
+            boolean isarmstrong = isarmstrong(number);
+            System.out.println(isarmstrong);
+            System.out.println(" ");
         }
-        else {
-            System.out.println("false");
-        }
-
-
 
     }
-}
+    static boolean isarmstrong(int number){
+        int sum = 0;
+        boolean ispalindrome = true;
+        int a= number;
+        while (number>0){
+            int reminder = number%10;
+            number = number/10;
+            sum = sum+reminder*reminder*reminder;
+
+
+
+        }
+        if (a==sum){
+            return ispalindrome;
+        }
+        else{
+            ispalindrome = false;
+
+    }
+        return ispalindrome;
+}}

@@ -12,12 +12,11 @@ public class Factorial {
     }
     static int factorial(int number){
         int factorial = 1;
-        int i =0;
-        int num = number;
-        while (i<num){
-            number = num-i;
-            factorial = factorial*number;
+        int i =1;
+        while (i<=number){
+            factorial = factorial*i;
             i++;
+
 
         }
         return factorial;
