@@ -1,3 +1,14 @@
+/*
+Create this pattern using java programmning
+*
+* *
+* * *
+* * * *
+* * * * *
+* * *
+* *
+*
+ */
 package com.pattern_printing;
 
 import java.util.Scanner;
