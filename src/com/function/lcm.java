@@ -1,7 +1,7 @@
 package com.function;
 
-public class lcm {
-    public static void main(String[] args){
+import java.util.Scanner;
 
-    }
+public class lcm {
+
 }
